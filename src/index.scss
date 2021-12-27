@@ -1,0 +1,43 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+* {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.rounded-br-4xl {
+	border-bottom-right-radius: 20rem;
+}
+
+/* @property --offset {
+	syntax: "<length>";
+	inherits: false;
+	initial-value: 0;
+} */
+
+/* .nav-content ul li:not(:last-of-type) a {
+	text-underline-offset: var(--offset, 0.2em);
+	text-decoration: underline 0.15em transparent;
+	transition: --offset 400ms, text-decoration-color 400ms;
+}
+
+.nav-content ul li:not(:last-of-type) a:hover,
+.nav-content ul li:not(:last-of-type) a:focus {
+	--offset: 0.4em;
+	text-decoration-color: rgb(249, 250, 251);
+} */
