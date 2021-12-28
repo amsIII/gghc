@@ -12,6 +12,7 @@ const NavContent = () => {
 			</div>
 
 			<div>
+				{/* NAV MOBILE BTN */}
 				<NavToggleBtn />
 
 				{/* NAV CONTENT/LINKS */}
@@ -42,7 +43,7 @@ const NavContent = () => {
 									className="py-2 inline-block md:hidden lg:block md:px-2 font-semibold "
 									href="#Community"
 								>
-									Marketing
+									FAQs
 								</a>
 							</li>
 							<li className=" md:hidden lg:block">

@@ -11,7 +11,7 @@ const Hero = ({ title, desc, btn }) => {
 				<div className="h-full absolute top-0 left-0 right-0 z-0">
 					<img
 						src="images/agency_hero.jpg"
-						alt=""
+						alt="Hero Image"
 						className="w-full h-full object-cover opacity-20"
 					/>
 				</div>
@@ -25,7 +25,7 @@ const Hero = ({ title, desc, btn }) => {
 							{desc}
 						</p>
 						<a
-							href="/marketing.html"
+							href="#"
 							className="uppercase px-8 py-4 shadow-sm rounded inline-block mt-8 font-semibold hover:bg-blue-500 bg-blue-600"
 						>
 							{btn}
