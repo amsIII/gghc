@@ -1,5 +1,5 @@
 export const HeroData = {
-	title: "Family Owned, Community First, Home Care Agency!",
+	title: "Family Owned, Community First!",
 	desc: "Griselda Gardens Home Care is a leading home care provider of integrated healthcare services, offering comprehensive range of programs for individuals with disabilities.",
 	btn: "Learn More",
 };
